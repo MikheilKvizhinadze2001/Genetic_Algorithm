@@ -2,7 +2,8 @@
 
 This project implements a genetic algorithm to solve the Traveling Salesman Problem (TSP). The TSP is a classic algorithmic problem in the field of computer science and operations research which focuses on optimization. In this problem, a salesman is given a list of cities, and must determine the shortest route that allows him to visit each city once and return to his original location.
 
-![image](https://github.com/MikheilKvizhinadze2001/rock_paper_scissors/assets/85734592/9e639ceb-0925-4a4e-8063-f7ee635bf958)
+<img width="380" alt="Screenshot 2024-02-29 150455" src="https://github.com/MikheilKvizhinadze2001/traveling_salesman_problem/assets/85734592/1d063ac6-f112-4dce-98ac-025b5a15a65e">
+
 
 
 ## Genetic Algorithm
