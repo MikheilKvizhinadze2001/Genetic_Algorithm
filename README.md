@@ -2,7 +2,8 @@
 
 This project implements a genetic algorithm to solve the Traveling Salesman Problem (TSP). The TSP is a classic algorithmic problem in the field of computer science and operations research which focuses on optimization. In this problem, a salesman is given a list of cities, and must determine the shortest route that allows him to visit each city once and return to his original location.
 
-<img width="380" alt="Screenshot 2024-02-29 150455" src="https://github.com/MikheilKvizhinadze2001/traveling_salesman_problem/assets/85734592/1d063ac6-f112-4dce-98ac-025b5a15a65e">
+![image](https://github.com/MikheilKvizhinadze2001/traveling_salesman_problem/assets/85734592/e4b1ed7d-6dd8-46c3-b943-ce359f899593)
+
 
 
 
@@ -25,8 +26,7 @@ The process of a genetic algorithm can be broken down into the following steps:
 
 ## Results:
 
-
-    <img width="380" alt="image" src="https://github.com/MikheilKvizhinadze2001/traveling_salesman_problem/assets/85734592/41623594-7162-47ad-aeb8-aa8052d7c0a5">
+<img width="380" alt="Screenshot 2024-02-29 150455" src="https://github.com/MikheilKvizhinadze2001/traveling_salesman_problem/assets/85734592/1d063ac6-f112-4dce-98ac-025b5a15a65e">
 
     
 As we see, after 1000 iterations, both crossover methods improved the performance by 40%, which is significant improvement. Also the cycle crossover (CX) method performed better, which can be attributed to its ability to preserve more "relative position" information from the parent routes compared to the Ordered Crossover (OX) method.
