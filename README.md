@@ -22,7 +22,14 @@ The process of a genetic algorithm can be broken down into the following steps:
 
 4. **Replacement:** The new population is used in the next iteration of the algorithm. In case of generational replacement, all individuals are replaced by their offspring, whereas in steady-state replacement, only a portion of the population is replaced.
 
+## Results:
 
+
+    <img width="380" alt="image" src="https://github.com/MikheilKvizhinadze2001/traveling_salesman_problem/assets/85734592/41623594-7162-47ad-aeb8-aa8052d7c0a5">
+
+    
+As we see, after 1000 iterations, both crossover methods improved the performance by 40%, which is significant improvement. Also the cycle crossover (CX) method performed better, which can be attributed to its ability to preserve more "relative position" information from the parent routes compared to the Ordered Crossover (OX) method.
+In the context of the Traveling Salesman Problem (TSP), the "relative position" of cities in a route can be crucial. This is because the order in which cities are visited can significantly impact the total distance of the route. By preserving more of this relative position information, the CX method is able to generate offspring that inherit more of the advantageous characteristics of their parents, leading to a higher likelihood of producing better solutions.
 
 ## Conclusion
 
