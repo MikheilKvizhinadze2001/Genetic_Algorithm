@@ -10,7 +10,8 @@ double Route::calculateFitness() {
         for (int i = 0; i < cities.size() - 1; ++i) {
             totalDistance += distance(cities[Indices[i]], cities[Indices[i+1]]);
         }
-
+        // We also need to consider distance between starting city (coordinates (0,0)) and first city
+        // and distance last city and starting city, so we calculate those two values and add them to totalDistance
         totalDistance += sqrt(pow(cities[Indices[0]].x,2)+ pow(cities[Indices[0]].y,2));
         totalDistance += sqrt(pow(cities[Indices[Indices.size()-1]].x,2)+ pow(cities[Indices[Indices.size()-1]].y,2));
     cur_fit = 1 / totalDistance;
