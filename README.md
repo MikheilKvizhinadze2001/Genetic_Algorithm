@@ -63,7 +63,7 @@ Meet Delivery Deadlines: Ensure timely delivery of orders by scheduling jobs in 
 
 ## Features
 
-- **Genetic Algorithm**: The project uses a genetic algorithm to find solutions to the job shop scheduling problem. The algorithm uses tournament selection, one-point crossover, and random mutation.
+- **Genetic Algorithm**: The project uses a genetic algorithm to find solutions to the job shop scheduling problem. The algorithm uses tournament selection, one-point crossover, elitism and sorting.
 
 - **Elitism**: The algorithm implements elitism to ensure that the best solutions are preserved across generations.
 
