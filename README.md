@@ -76,7 +76,11 @@ reaching convergence is ~10%.
 
 ## Conclusion for part 2
 
-Just like the part 1, part 2 also demonstrates that genetic algorithms can be used to solve optimization problems. This part showcases the application of a genetic algorithm to the job shop scheduling problem. It demonstrates how to represent solutions as chromosomes, calculate fitness, and apply genetic operators such as selection, crossover, and mutation. The project also implements advanced features such as early stopping and elitism.
+Just like the part 1, part 2 also demonstrates that genetic algorithms can be used to solve optimization problems. This part showcases the application of a genetic algorithm to the job shop scheduling problem. It demonstrates how to represent solutions as chromosomes, calculate fitness, and apply genetic operators such as selection, crossover, and mutation. The project also implements advanced features such as early stopping and elitism. However, it should be noted that mutation was not used in neither 
+part, because it introduces diversity into the population by making small random changes to individuals. This diversity aids in exploration, allowing the algorithm to search a wider range of the solution space in search of better solutions. However, in a small population, diversity may already be limited, and excessive mutation can disrupt the convergence process by introducing too much randomness, hindering the exploitation of promising areas of the search space.
+
+
+## Thank you!
 
 
 
