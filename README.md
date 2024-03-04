@@ -45,8 +45,21 @@ This project demonstrates the power of genetic algorithms to solve optimization 
 
 # Job Shop Scheduling with Genetic Algorithm
 
-This project implements a genetic algorithm to solve the job shop scheduling problem. The goal is to find an optimal sequence of jobs that minimizes the total delay.
-total delay is calculated by 
+Job shop scheduling is a classic problem in operations research and production management. In a job shop, multiple jobs consisting of various operations need to be processed on different machines. The challenge lies in determining the optimal sequence of jobs and operations to minimize production time, maximize resource utilization, and meet delivery deadlines.
+
+This project aims to provide a flexible and efficient solution to the job shop scheduling problem. By leveraging advanced algorithms and techniques, we strive to deliver a tool that enables users to:
+
+Minimize Production Time: Schedule jobs and operations in a way that reduces overall production time and increases throughput.
+Maximize Resource Utilization: Optimize the allocation of resources such as machines, labor, and materials to improve efficiency.
+Meet Delivery Deadlines: Ensure timely delivery of orders by scheduling jobs in accordance with specified due dates and constraints.
+
+
+
+![image](https://github.com/MikheilKvizhinadze2001/traveling_salesman_problem/assets/85734592/b56f911d-3ac5-4559-aaf8-7b840c4f0aa6)
+
+
+
+
 
 ## Features
 
