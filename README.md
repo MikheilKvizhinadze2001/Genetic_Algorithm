@@ -2,9 +2,9 @@
 
 # Part 1
 
-## the Traveling Salesman Problem
+## The Traveling Salesman Problem
 
-This project implements a genetic algorithm to solve the Traveling Salesman Problem (TSP). The TSP is a classic algorithmic problem in the field of computer science and operations research which focuses on optimization. In this problem, a salesman is given a list of cities, and must determine the shortest route that allows him to visit each city once and return to his original location.
+This part implements a genetic algorithm to solve the Traveling Salesman Problem (TSP). The TSP is a classic algorithmic problem in the field of computer science and operations research which focuses on optimization. In this problem, a salesman is given a list of cities, and must determine the shortest route that allows him to visit each city once and return to his original location.
 
 ![image](https://github.com/MikheilKvizhinadze2001/traveling_salesman_problem/assets/85734592/e4b1ed7d-6dd8-46c3-b943-ce359f899593)
 
@@ -63,15 +63,15 @@ Meet Delivery Deadlines: Ensure timely delivery of orders by scheduling jobs in 
 
 ## Features
 
-- **Genetic Algorithm**: The project uses a genetic algorithm to find solutions to the job shop scheduling problem. The algorithm uses tournament selection, one-point crossover, elitism and sorting.
+- **Genetic Algorithm**: The project uses a genetic algorithm to find solutions to the job shop scheduling problem. The algorithm uses tournament selection, one-point crossover and elitism. Details can be found in the relevant files.
 
 - **Elitism**: The algorithm implements elitism to ensure that the best solutions are preserved across generations.
 
 - **Early Stopping**: The algorithm stops early if there is no significant improvement in the average fitness for a certain number of generations.
-  Specifically, if, after 70 iterations, result is not improved by 0.5%, than the algorithm stops.
+  Specifically, if, after 70 iterations, the result is not improved by at least 0.5%, the algorithm stops.
 
 ## Results
-Part 2 uses random seed to see how the algorithm performs on differn values, so multiple runs will result in different results, but overall improvement in fitness before
+Part 2 uses random seed to see how the algorithm performs on differn values, so each run will result in different output, but overall improvement in fitness before
 reaching convergence is ~10%.
 
 ## Conclusion for part 2
@@ -89,3 +89,4 @@ part, because it introduces diversity into the population by making small random
 - https://www.geeksforgeeks.org/genetic-algorithms/
 - https://optimization.cbe.cornell.edu/index.php?title=Job_shop_scheduling
 - https://en.wikipedia.org/wiki/Travelling_salesman_problem
+- https://towardsdatascience.com/evolution-of-a-salesman-a-complete-genetic-algorithm-tutorial-for-python-6fe5d2b3ca35
